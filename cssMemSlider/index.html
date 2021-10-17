@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Slider</title>
+</head>
+<body>
+
+   <div class="main">
+      <a href="https://www.luisroyo.com/en/gallery/" target="_blank"><h1>Luis Royo</h1></a>
+      
+      <input checked type="radio" name="respond" id="desktop">
+         <article id="slider">
+            <input checked type="radio" name="slider" id="switch1">
+            <input type="radio" name="slider" id="switch2">
+            <input type="radio" name="slider" id="switch3">
+            <input type="radio" name="slider" id="switch4">
+            <input type="radio" name="slider" id="switch5">
+
+            <div id="slides">
+
+               <div class="images">
+                  <img class="img" src="./assets/Luis_Royo1.jpg" alt="Luis_Royo1">
+                  <img class="img" src="./assets/Luis_Royo2.jpg" alt="Luis_Royo2">
+                  <img class="img" src="./assets/Luis_Royo3.jpg" alt="Luis_Royo3">
+                  <img class="img" src="./assets/Luis_Royo4.jpg" alt="Luis_Royo4">
+                  <img class="img" src="./assets/Luis_Royo5.jpg" alt="Luis_Royo5">
+               </div>
+               
+            </div>
+
+            <div id="title" class="title">
+               <div class="title-wrapper">
+                  <p>The fallen angel</p>
+                  <p>Ointment and moon bath</p>
+                  <p>Wings of a Dream</p>
+                  <p>She Wheels of Time</p>
+                  <p>Threads of Desire</p>
+               </div>
+            </div>
+
+            <div id="active">
+               <label for="switch1">
+                  <div class="dot"></div>
+               </label>
+               <label for="switch2">
+                  <div class="dot"></div>
+
+               </label>
+               <label for="switch3">
+                  <div class="dot"></div>
+
+               </label>
+               <label for="switch4">
+                  <div class="dot"></div>
+
+               </label>
+               <label for="switch5">
+                  <div class="dot"></div>
+
+               </label>
+            </div>
+         </article>
+   </div>   
+
+   <script>
+      console.log(`
+- Выполнено всё из секции Требования к репозиторию и как сабмитить задание +30
+- Слайдер позиционируется с равными отступами слева и справа +10
+- Соблюдено расположение картинок, подписей к ним и контролов +10
+- Имеется анимация для смены картинок +20
+- Имеется анимация для смены подписей к картинкам +10
+- Подписи к картинкам должны быть строковыми значениями (текстом), т.е. текст не должен быть частью картинки +15
+- Каждый контрол имеет большую область нажатия, чем размер самого контрола +5
+- Контролы имеют интерактивность (момент наведения, момент нажатия, активный контрол, изменение курсора) +10
+- Имеется мобилная версия слайдера и соблюдено расположение картинок, подписей к ним и контролов +20
+- Используются относительные едициы измерения для основных блоков (rem, em, %, vh, vw, fr and etc... ) +10
+- Все блоки/составные части слайдера (контролы, картинки, подписи к слайдеру) спозиционированы без использования position: absolute +10
+Итого 150 баллов`)
+   </script>
+</body>
+</html>
