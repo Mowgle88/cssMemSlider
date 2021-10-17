@@ -13,9 +13,17 @@
   border-radius: 3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   text-align: center;
   color: #fff;
+}
+
+h1:hover {
+  color: #f6feaa;
 }
 
 p {
